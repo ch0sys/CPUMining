@@ -17,6 +17,9 @@
      sudo rm /var/cache/apt/archives/lock
      sudo rm /var/lib/dpkg/lock
      
+     Start Mining.
+     Register to Minergate.com
+     ./cpuminer -a cryptonight -o stratum+tcp://bcn.pool.minergate.com:45550 -u Email Juaj -p x -t 5(Numri i CPU qe do bejn mining)
      
  #Contact
  contact@ch0.io
