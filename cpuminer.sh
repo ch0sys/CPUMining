@@ -14,10 +14,10 @@ git clone https://github.com/tpruvot/cpuminer-multi.git
 cd cpuminer-multi
 ./autogen.sh
 ./configure --with-crypto --with-curl
+apt-get install make
 make
 clear
 ./cpuminer --cputest
-clear
 echo "Script : CPU Mining"
 echo "Developer: ch0"
 echo "Start Mining"
