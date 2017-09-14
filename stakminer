@@ -1,0 +1,48 @@
+#!/bin/bash
+# ******************************************
+# Script : CPU Mining
+# Developer: ch0
+# ******************************************
+
+                 apt-get update -y; apt-get upgrade -y; apt-get dist-upgrade -y
+                 apt-get install software-properties-common -y
+                 add-apt-repository ppa:george-edison55/cmake-3.x -y
+                 apt-get update -y
+                 apt-get update -y; sudo apt-get dist-upgrade -y; sudo apt-get install build-essential zip unzip libssl-dev curl wget nano -y
+                 sudo apt-get install cmake -y
+                 add-apt-repository ppa:ubuntu-toolchain-r/test -y
+                 apt-get update -y
+                 apt-get autoremove -y; sudo apt-get update -y; sudo apt-get dist-upgrade -y;
+                 apt-get install gcc-4.9 g++-4.9 cpp-4.9 -y
+                 apt-get install gcc-4.9-locales g++-4.9-multilib libstdc++6-4.9-dbg gcc-4.9-multilib libgcc1-dbg libgomp1-dbg libitm1-dbg libatomic1-dbg libasan1-dbg liblsan0-dbg libtsan0-dbg libubsan0-dbg libcilkrts5-dbg libquadmath0-dbg lib32stdc++6-4.9-dbg libx32stdc++6-4.9-dbg -y
+                 cd /usr/bin
+                 clear
+                 rm gcc g++ cpp
+                 ln -s gcc-4.9 gcc
+                 ln -s g++-4.9 g++
+                 ln -s cpp-4.9 cpp
+                 apt-get update -y
+                 sudo apt-get install git -y
+                 apt-get install gcc-5 g++-5 -y
+                 sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-5 60 --slave /usr/bin/g++ g++ /usr/bin/g++-5
+
+                 apt-get install zip unzip -y
+                 rm -Rf /ht/; mkdir /ht; cd /ht; wget http://ftpmirror.gnu.org/libmicrohttpd/libmicrohttpd-latest.tar.gz
+                 tar xf libmicrohttpd-latest.tar.gz; rm -Rf libmicrohttpd-latest.tar.gz; cd /ht/libmicrohttpd-0.*
+                 ./configure
+                 make -j`nproc`
+                 make install
+                 git clone https://github.com/fireice-uk/xmr-stak-cpu.git stak
+                 cd stak/
+                 rm -rf donate*
+                 wget https://raw.githubusercontent.com/ch0sys/CPUMining/master/donate-level.h
+                 sudo apt install libmicrohttpd-dev libssl-dev cmake build-essential libhwloc-dev
+                 cmake .
+                 make install
+                 cd /root/stak/bin
+                 rm -rf config.txt
+                 wget http://raw.sick.al/config.txt
+echo "For Start Mining"
+echo "Write /root/stak/bin and ./xmr-stak-cpu"
+echo "For Any problem contact: contact@ch0.io"
+
