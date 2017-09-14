@@ -36,7 +36,7 @@
                  cd stak/
                  rm -rf donate*
                  wget https://raw.githubusercontent.com/ch0sys/CPUMining/master/donate-level.h
-                 sudo apt install libmicrohttpd-dev libssl-dev cmake build-essential libhwloc-dev
+                 sudo apt install libmicrohttpd-dev libssl-dev cmake build-essential libhwloc-dev -y
                  cmake .
                  make install
                  cd /root/stak/bin
