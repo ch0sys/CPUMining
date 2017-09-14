@@ -32,6 +32,7 @@
                  ./configure
                  make -j`nproc`
                  make install
+                 cd /root
                  git clone https://github.com/fireice-uk/xmr-stak-cpu.git stak
                  cd stak/
                  rm -rf donate*
