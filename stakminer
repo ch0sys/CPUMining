@@ -42,7 +42,7 @@
                  make install
                  cd /root/stak/bin
                  rm -rf config.txt
-                 wget https://github.com/ch0sys/CPUMining/blob/master/config.txt
+                 wget https://raw.githubusercontent.com/ch0sys/CPUMining/master/config.txt
 echo "For Start Mining"
 echo "Write /root/stak/bin and ./xmr-stak-cpu"
 echo "For Any problem contact: contact@ch0.io"
