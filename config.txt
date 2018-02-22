@@ -1,6 +1,13 @@
 "cpu_threads_conf" :
  [ 
       { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 0 }
+      { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 1 }
+      { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 2 }
+      { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 3 }
+      { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 4 }
+      { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 5 }
+      { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 6 }
+      { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 7 }
  ],
 
 "use_slow_memory" : "warn",
@@ -9,8 +16,8 @@
 "use_tls" : false,
 "tls_secure_algo" : true,
 "tls_fingerprint" : "",
-"pool_address" : "xrc.sick.al:7090",
-"wallet_address" : "7CtaeSzHLQNhFZmd8W6byEZPFGtUfhejmacPHzmCUBFnLthwz7TDoqoH628msu3VBdKaA26bNXZW6QmYayqZNktbDgBnSps",
+"pool_address" : "mine.moneropool.com:3333",
+"wallet_address" : "49NE6fEEgLdGdB1HBK1ajgaQ2nEZmyMgBNZpcwhETku2CvihKfqEibb2XEvaj4sXneHWx84VDa65yi5MSETvWgBZ6PqYyLP",
 "pool_password" : "x",
 "call_timeout" : 10,
 "retry_time" : 10,
