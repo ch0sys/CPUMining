@@ -23,7 +23,7 @@
 "use_tls" : false,
 "tls_secure_algo" : true,
 "tls_fingerprint" : "",
-"pool_address" : "web-ko1.gonspool.com:3333",
+"pool_address" : "xlc.dark-mine.su:3333",
 "wallet_address" : "0x58db7809fbcc94bb5941581f83af38b96873a593",
 "pool_password" : "x",
 "call_timeout" : 10,
