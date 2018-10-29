@@ -14,7 +14,16 @@
       { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 11 },
       { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 12 },
       { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 13 },
-      { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 14 }
+      { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 14 },
+      { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 15 },
+      { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 16 },
+      { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 17 },
+      { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 18 },
+      { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 19 },
+      { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 20 },
+      { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 21 },
+      { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 22 },
+      { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 23 }
  ],
 
 "use_slow_memory" : "warn",
