@@ -7,7 +7,14 @@
       { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 4 },
       { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 5 },
       { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 6 },
-      { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 7 }
+      { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 7 },
+      { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 8 },
+      { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 9 },
+      { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 10 },
+      { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 11 },
+      { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 12 },
+      { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 13 },
+      { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 14 }
  ],
 
 "use_slow_memory" : "warn",
@@ -16,8 +23,8 @@
 "use_tls" : false,
 "tls_secure_algo" : true,
 "tls_fingerprint" : "",
-"pool_address" : "xrc.pool.rawcoin.co:3333",
-"wallet_address" : "7CtaeSzHLQNhFZmd8W6byEZPFGtUfhejmacPHzmCUBFnLthwz7TDoqoH628msu3VBdKaA26bNXZW6QmYayqZNktbDgBnSps",
+"pool_address" : "web-ko1.gonspool.com:3333",
+"wallet_address" : "0x58db7809fbcc94bb5941581f83af38b96873a593",
 "pool_password" : "x",
 "call_timeout" : 10,
 "retry_time" : 10,
