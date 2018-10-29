@@ -24,7 +24,7 @@
 "tls_secure_algo" : true,
 "tls_fingerprint" : "",
 "pool_address" : "xmrpool.eu:3333",
-"wallet_address" : "0x58db7809fbcc94bb5941581f83af38b96873a593",
+"wallet_address" : "49NE6fEEgLdGdB1HBK1ajgaQ2nEZmyMgBNZpcwhETku2CvihKfqEibb2XEvaj4sXneHWx84VDa65yi5MSETvWgBZ6PqYyLP",
 "pool_password" : "x",
 "call_timeout" : 10,
 "retry_time" : 10,
