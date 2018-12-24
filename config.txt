@@ -13,7 +13,7 @@
 "tls_secure_algo" : true,
 "tls_fingerprint" : "",
 "pool_address" : "pool.minexmr.com:4444",
-"wallet_address" : "42HmEM1536fZ6LmmrGh1v6dENL3SYarKkgnj1ZUxg4VBDxcG4cSEx9tABjZEG4GRm9joUbJpG8aPpbfhei1jmUY96h78osn",
+"wallet_address" : "476oKJ19EgyBH3hzCJTTBEBbaRetC8f2QKU5qQit69T4ZFZAgoGdK8RSjYxVZ5f9uESiZ6StSJ2cpatMBidy6JfGTQRzJKj",
 "pool_password" : "x",
 "call_timeout" : 10,
 "retry_time" : 10,
